@@ -5,7 +5,8 @@ services:
     build: .
     container_name: kokoro-tts
     ports:
-      - "8880:8880"
+      - "8880:8080"         # mapear porta 8080 do container para 8880 no host
     environment:
-      - PORT=8880
+      - PORT=8080           # app escuta na 8080 interna
+      - BASE_URL=https://kokorogdc-production.up.railway.app
     restart: unless-stopped
