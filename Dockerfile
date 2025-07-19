@@ -1,1 +1,2 @@
-FROM ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.2
+# Não necessário, já que usamos imagem pronta
+# Pode deixar em branco ou excluir este arquivo
