@@ -1,5 +1,1 @@
-FROM n8nio/n8n:1.95.3
-
-USER root
-
-USER node
+FROM ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.2
